@@ -1,0 +1,9 @@
+{
+  "id": "note-attachment-tracker",
+  "name": "笔记关联改变",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "管理与笔记相关的附件文件与文件夹，在笔记移动时自动移动关联文件夹，支持清理无用附件文件夹",
+  "author": "Obsidian User",
+  "isDesktopOnly": false
+} 

@@ -1,0 +1,62 @@
+/* 设置面板样式 */
+.attachment-patterns-container,
+.cleanup-patterns-container {
+    margin-bottom: 20px;
+}
+
+/* 弹窗样式 */
+.empty-folders-list {
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 10px 0;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+}
+
+.empty-folder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.empty-folder-item:last-child {
+    border-bottom: none;
+}
+
+.folder-path {
+    flex: 1;
+    margin-right: 10px;
+    word-break: break-all;
+}
+
+.empty-folders-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.folder-delete-btn,
+.delete-all-btn,
+.cancel-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.folder-delete-btn {
+    color: var(--text-error);
+    background-color: transparent;
+}
+
+.delete-all-btn {
+    color: var(--text-on-accent);
+    background-color: var(--color-red);
+}
+
+.cancel-btn {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-form-field);
+} 
